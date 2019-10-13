@@ -1,0 +1,23 @@
+{
+    "name": "ostap-mykhaylyak/lxd-socket",
+    "description": "PHP library to connect LXD unix-socket",
+	"homepage": "https://ostap.dev/",
+    "type": "library",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ostap Mykhaylyak",
+            "email": "me@ostap.dev",
+			"homepage": "https://ostap.dev/"
+        }
+    ],
+    "minimum-stability": "dev",
+	"autoload": {
+        "psr-4": {
+            "Socket\\": "src/Socket"
+        }
+    }
+}
