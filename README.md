@@ -1,10 +1,8 @@
 # lxd-socket
 
-
 A PHP library for interacting with the LXD socket.
 
 ## Requirements
-
 
 lxd-socket requires php-curl extension and PHP 7.2 ( i hate not updated software )
 
@@ -19,7 +17,6 @@ $ composer require ostap-mykhaylyak/lxd-socket:dev-master
 ## Usage
 
 See the [`example`](./example) for more information.
-
 
 ## Security
 
